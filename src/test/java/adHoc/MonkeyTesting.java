@@ -18,6 +18,7 @@ public class MonkeyTesting extends BaseClass {
         int countClicked=0;
         int countElementNotClicked=1;
 
+
         elements = driver.findElements(By.xpath("//a"));
         for(int j=0;j<= elements.size();j++){
             try{

@@ -34,7 +34,7 @@ public abstract class BaseClass {
 
     @BeforeTest(alwaysRun = true)
     public void beforeTest() {
-        System.out.println("BeforeTest: Action or Code can be add here\n Testcase start time stamp: " + CustUtil.getCurrentDateTimeStamp());
+        System.out.println("BeforeTest: Action or Code can be add here\nTestcase start time stamp: " + CustUtil.getCurrentDateTimeStamp());
     }
 
 

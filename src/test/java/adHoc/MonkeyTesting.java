@@ -46,7 +46,7 @@ public class MonkeyTesting extends BaseClass {
                    countNotClicked++;
                 }
             }
-//            Thread.sleep(random.nextInt(1000));
+            Thread.sleep(random.nextInt(1000));
         }
         System.out.println("Not clickable elements are : "+countNotClicked);
         System.out.println("Clicked Element count is : "+countClicked);

@@ -44,6 +44,7 @@ public class CustUtil {
         jse.executeScript("arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", element);
     }
 
+
     public static void clearDirectory(String Dir) throws NullPointerException {
         File file = new File(Dir);
         String[] myFiles;

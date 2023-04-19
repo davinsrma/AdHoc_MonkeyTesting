@@ -43,4 +43,5 @@ public class ClickEachElement extends BaseClass {
         }
         driver.quit();
     }
+
 }

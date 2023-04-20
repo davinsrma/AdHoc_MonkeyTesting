@@ -9,6 +9,7 @@ import java.util.List;
 
 public class ClickEachElement extends BaseClass {
 
+
     @Test
     public void setClickableElements(){
         List<WebElement> clickableElements = driver.findElements(By.xpath("//a | //button"));

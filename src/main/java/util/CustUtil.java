@@ -240,7 +240,6 @@ public class CustUtil {
     public static void pressTab(){
         Actions actions=new Actions(driver);
         actions.sendKeys(Keys.TAB).perform();
-
     }
 
     public static void pressEnter(){

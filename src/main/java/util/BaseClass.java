@@ -37,7 +37,6 @@ public abstract class BaseClass {
         System.out.println("BeforeTest: Action or Code can be add here\n Testcase start time stamp: " + CustUtil.getCurrentDateTimeStamp());
     }
 
-
 //    @Parameters("browser")
     @BeforeClass
     public void beforeClass(@Optional("chrome") String browser) throws IOException {

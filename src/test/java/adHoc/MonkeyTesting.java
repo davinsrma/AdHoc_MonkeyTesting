@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import util.BaseClass;
-
 import java.util.List;
 import java.util.Random;
 public class MonkeyTesting extends BaseClass {
@@ -53,4 +52,3 @@ public class MonkeyTesting extends BaseClass {
         driver.quit();
     }
 }
-

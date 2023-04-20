@@ -5,22 +5,14 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Reporter;
-
-import javax.activation.DataHandler;
-import javax.activation.DataSource;
-import javax.activation.FileDataSource;
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.io.*;
-import java.net.InetAddress;
-import java.net.UnknownHostException;
 import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
-import java.util.List;
 import java.util.*;
 
 import static util.BaseClass.driver;
@@ -69,7 +61,6 @@ public class CustUtil {
     }
 
     public static void DeleteDirectoryRecursively(String DirPath) throws IOException {
-//		String DirPath = "D:\\test";
         Path directory = Paths.get(DirPath);
         System.out.println("Deleting folder: " + directory);
 
@@ -209,9 +200,6 @@ public class CustUtil {
         return (sdf.format(objDate));
     }
 
-
-
-
     public static void click(WebDriverWait wait, WebElement ele) {
         try {
             wait.until(ExpectedConditions.visibilityOf(ele));
@@ -222,10 +210,6 @@ public class CustUtil {
             System.err.println(e);
         }
     }
-
-
-
-
 
     public static void mouseHovering(WebElement element){
         Actions actions=new Actions(driver);

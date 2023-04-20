@@ -31,6 +31,7 @@ public class MonkeyTesting extends BaseClass {
             }
         }
 
+
         for (int i=0 ;i<= elements.size();i++) {
             elements = driver.findElements(By.xpath("//a"));
             if (!elements.isEmpty()) {

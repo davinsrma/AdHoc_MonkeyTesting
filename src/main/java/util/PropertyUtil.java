@@ -31,7 +31,6 @@ public class PropertyUtil
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-        
         return prop;
     }
 
